@@ -14,6 +14,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
+h2, p {
+    color: white;
+}
 
 #nav-bar {
     background: var(--background);
@@ -30,6 +33,13 @@ nav {
     background: var(--background);
     width: 100%;
 }
+
+.content {
+    height: 200vh;
+    background-image: url('/assets/images/site-background.jpg');
+}
+
+
 
 nav ul {
     margin: 0;

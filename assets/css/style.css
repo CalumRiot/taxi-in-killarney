@@ -65,9 +65,12 @@ h2, h3, p {
 
 div.footer {
     margin: 0;
-    padding: 0;
-    border: 0;
+    bottom: 0;
+    height: 3em;
+    position: relative;
+    width: 100%;
 }
+
 
 footer > li {
     display: inline;
@@ -293,6 +296,19 @@ nav a:hover {
       nav a:hover::before {
         transform: scale(1, 1);
       }
+}
+
+@media screen and (max-width: 1200px) {
+    #services {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #left-services, #right-services {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 }
 
 /*Set Column sizes for smaller width devices*/

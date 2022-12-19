@@ -18,6 +18,11 @@ h2, p {
     color: white;
 }
 
+footer {
+    margin: 0;
+    padding: 0;
+}
+
 #nav-bar {
     background: var(--background);
     text-align: center;
@@ -117,23 +122,31 @@ nav a:hover {
 
 .hero-img {
     margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
 }
 
 .hero-img:hover {
     border: 1px solid #777;
 }
 
-.hero-img img {
-    width: 100%;
-    height: auto;
-}
-
 .hero-img desc {
     padding: 15px;
     text-align: center;
+}
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery img{
+    width: 100%;
 }
 
 /* Set Design for Desktop Users */
@@ -183,5 +196,15 @@ nav a:hover {
         transform: scale(1, 1);
       }
 }
-  
 
+@media screen and (max-width: 950px){
+    #gallery{
+        column-count: 3;
+    }
+}
+  
+@media screen and (max-width: 800px){
+    #gallery{
+        column-count: 2;
+    }
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-    --background:rgba(90, 214, 180, .85);
+    --background:rgba(69, 145, 216, 0.85);
 }
 * {
     box-sizing: border-box;
@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background-color: #223;
+    background-color: rgb(69, 145, 207);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -21,8 +21,10 @@ h2, p {
 #nav-bar {
     background: var(--background);
     text-align: center;
-    position: fixed;
+    position: relative;
     width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
 /*Start Design with Mobile Layout First*/
@@ -78,9 +80,11 @@ nav {
     transition: transform 450ms ease-in-out;
 }
 
+
+
 .content {
     height: 200vh;
-    background-image: url('/assets/images/site-background.jpg');
+    background-image: url('/assets/images/abstract-gradient-neon-lights.jpg');
 }
 
 
@@ -109,6 +113,27 @@ nav a:hover {
 
 .nav-toggle:checked ~ nav {
     transform: scale(1,1);
+}
+
+.hero-img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.hero-img:hover {
+    border: 1px solid #777;
+}
+
+.hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-img desc {
+    padding: 15px;
+    text-align: center;
 }
 
 /* Set Design for Desktop Users */

@@ -28,7 +28,7 @@ input[type=text], select {
     box-sizing: border-box;
   }
 
-  input[type=number], select {
+  input[type=tel], select {
     width: 50%;
     padding: 10px 18px;
     margin: 8px 0;
@@ -142,9 +142,9 @@ nav {
 
 
 
-.content {
+main {
     height: 200vh;
-    background-image: url('/assets/images/abstract-gradient-neon-lights.jpg');
+    background-color: rgb(96, 129, 38);
 }
 
 
@@ -249,6 +249,11 @@ nav a:hover {
     text-align: right;
 }
 
+#gallery img {
+    width: 100%;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+}
 
 
 /* Set Design for Desktop Users */

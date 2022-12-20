@@ -30,8 +30,22 @@ body {
     font-weight: 400;
 }
 
-h2, h3, p {
+h2, h3 {
     color: white;
+    font-size: xx-large;
+}
+
+h4 {
+    font-size: x-large;
+}
+
+p {
+    color: white;
+    font-size: larger;
+}
+
+footer {
+    text-align: center;
 }
 
 
@@ -116,6 +130,7 @@ nav {
 
 main {
     background-color: rgb(96, 129, 38);
+    min-height: calc(100vh - 113 - 48);
 }
 
 
@@ -164,11 +179,6 @@ nav a:hover {
     text-align: center;
 }
 
-.tour-image > img {
-    width: 30rem;
-    aspect-ratio: 1.5;
-    object-fit: cover;
-}
 
 #gallery {
     clear: both;
@@ -183,7 +193,7 @@ nav a:hover {
 
 /*Space Out index page Our Services Section*/
 #services {
-    height: 600px;
+    height: 100vh;
 }
 
 #our-services {
@@ -192,13 +202,13 @@ nav a:hover {
 
 #left-services {
     padding-top: 30px;
-    width: 33%;
+    width: 40%;
     float: left;
 }
 
 #right-services {
     padding-top: 30px;
-    width: 33%;
+    width: 40%;
     float: right;
 }
 
@@ -224,6 +234,48 @@ nav a:hover {
 
 .right-about-heading p {
     text-align: right;
+}
+
+.social-networks {
+    list-style: none;
+    text-align: center;
+
+}
+
+/*Space Out tours page our tours section*/
+
+.tour-image > img {
+    width: 30rem;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+}
+
+#tours {
+    text-align: center;
+}
+
+/*Social Networks Style*/
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 100%;
+    margin: 2%;
+    padding: 0%;
+}
+
+.fa-facebook {
+color:#3b5998;
+}
+
+.fa-twitter {
+color:#00acee;
+}
+
+.fa-instagram {
+color: purple;
 }
 
 #gallery img {
@@ -306,4 +358,13 @@ nav a:hover {
     #gallery{
         column-count: 2;
     }
+}
+
+/*Set Fixed Services Height for smallest width devices*/
+
+@media screen and (max-width: 550px){
+    #services{
+        height: 1800px;
+    }
+    
 }

@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-:root {
-    --background:rgba(169, 169, 169, 0.85);
-}
 * {
     box-sizing: border-box;
+}
+
+:root {
+    --background:rgba(169, 169, 169, 0.85);
 }
 
 /*Add Style to Contact Form*/
@@ -160,6 +161,8 @@ nav a:hover {
 .nav-toggle:checked ~ nav {
     transform: scale(1,1);
 }
+
+/*Set Hero img gallery styles*/
 
 .hero-img {
     margin: 0px;
@@ -333,10 +336,13 @@ color: purple;
       }
 }
 
+
+
+
 @media screen and (max-width: 1200px) {
     #services {
         width: 65%;
-        height: 1200px;
+        height: 1800px;
         margin: 0 auto;
     }
     #left-services, #right-services {
@@ -364,7 +370,14 @@ color: purple;
 
 @media screen and (max-width: 550px){
     #services{
-        height: 1800px;
+        height: 2200px;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    #services{
+        height: 2500px;
     }
     
 }

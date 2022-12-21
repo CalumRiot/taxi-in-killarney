@@ -381,3 +381,17 @@ color: purple;
     }
     
 }
+
+@media screen and (max-width: 310px){
+    main{
+        height: 3200px;
+    }
+    
+}
+
+@media screen and (max-width: 285px){
+    main{
+        height: 3400px;
+    }
+    
+}

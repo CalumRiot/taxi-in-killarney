@@ -1,6 +1,7 @@
 # Taxi In Killarney 
 ![Responsiveness Test](assets/images/responsive-test.PNG)
-## Overview
+## **Overview**
+---
 Taxi In Killarney is a site developed for a self-employed taxi driver based in Killarney, Co.Kerry, Ireland. The aim of the website is to provide information to customers about the services offered, to allow customers to make bookings online and to increase the number of customers by providing tours which would appeal to tourists looking to explore the areas surrounding Killarney. The website is 3 page website designed with a mobile-first approach. The websites 3 pages are Home, Tours and Bookings Page. The websites development is still ongoing and may be updated or changed in order to suit the needs or demands of both the page owner and it's users.
 ### Features
 1. Navigation Bar
@@ -41,7 +42,8 @@ The booking system as shown simply takes details and sends them too a file dump.
 
 With each airport being a fixed distance from Killarney and due to the demand for Airport Transfers ideally an additional page dedicated to Airport Transfers would need to be implemented. Similar to the tours page it would list each of the four airports serviced and provide a cost per person for each one. A Golf Chaffeuring page could also be added following a similar design layout to the tours and airport transfers pages.
 
-## UX Design
+## **UX Design**
+---
 
 ### Strategy
 
@@ -73,18 +75,57 @@ Sections:
 
 Wireframe Mockups:
 
+![Responsiveness Test](assets/images/home-wireframe.PNG)
+![Responsiveness Test](assets/images/tours-wireframe.PNG)
+![Responsiveness Test](assets/images/contact-wireframe.PNG)
 
 ### User Stories
 
-* Owner of Taxi in Killarney - "I would like to develop a better online presence by creating a website for myself, in recent years many taxi's have signed on with 3rd party apps like Freenow. However these groups tend to take commissions for the work they provide so ideally an online website controlled by me would be the best solution."
+* As the owner, I want to expand my online presence by providing a website to my customers to provide bookings as well as provide information on services that I provide.
 
-* Owner of Taxi in Killarney - "I deal with most of my customers over the phone, I take bookings over the phone but it's very limiting as it mainly restricts my customers to people who already know me. Ideally I would like to have a website which automates this process and hopefully helps attract new customers."
+* As the owner, I would like to reduce phone based bookings by giving my customers an alternative. I also want a digital presence to help compete against 3rd party Taxi Apps such as FreeNow.
 
-* User of Taxi in Killarney - "Well i'm a bit old school now so I dunno if a website would help me because I've always called William whenever I needed a Taxi but I suppose with the way the world's going it wouldn't be a bad idea to have a website sure I didn't even know he was doing tours until you told me."
+* As a customer, It would be nice to know more about the services provided by the owner as well as be able to make bookings in advance.
 
-* Potential User of Taxi in Killarney - "When I get a taxi in Killarney I never have a set number I just look up online 'Killarney Taxi' and then click the first page I see and use the number from that. So I probably would use his taxi if he had a webpage."
+* As a potential customer, I would like to explore the surrounding areas of Killarney. Having a list of potential tours and info about them would make it easier to decide.
 
-* Potential User of Taxi in Killarney - "I like to book things in advance if i'm heading out anywhere i'll call up a taxi and book it that way or sometimes i'll use the freenow app to book a taxi so a taxi website that allows me to make a booking online would definitely be something I could see myself using."
+## **Technologies Used**
+---
+### Languages
+- HTML5
+- CSS3
+This website used a both HTML & CSS.
+
+### Integretion
+- Font Awesome
+  Was used to add icons to my footer and services section of the website
+- Google Fonts
+  Used to select the font styles used on the webpage for the section heading and body.
+
+### Workspace
+- GitHub: Integrated Development Environment 
+- Gitpod: Cloud based hosting platform for managing my repositories, tracking changes and storing files.
+
+### Other
+- Tinyjpeg
+  Was used to compress images 
+- Balsamiq Wireframes
+  Used to create wireframes for project
+
+## **Testing**
+---
+
+### W3C Validator
+
+Ran my code through W3C Validator to check for errors.
+
+- "index.html" 1 Warning, 4 Errors. Warning: Section lacks heading can be ignored. Errors: 4 hr tags the child elements of a h4, Was used for styling could be ignored but also could be fixed by adding style through css.
+
+- "tours.html" File ran with zero warnings or errors.
+
+- "contact.html" 1 Error. Error: for attribute of label must not ID of none hidden form, attempted to fix issue but could not solve.
+
+- "style.css" 1 Warning, 1 Error. Warning: Imported style sheets not checked can be ignored. Error: min-height is calc so error can be ignored.
 
 
 

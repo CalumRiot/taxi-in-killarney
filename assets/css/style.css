@@ -29,6 +29,9 @@ body {
     background-color: rgb(169,169,169);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    max-width: 2400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h2, h3 {

@@ -127,6 +127,57 @@ Ran my code through W3C Validator to check for errors.
 
 - "style.css" 1 Warning, 1 Error. Warning: Imported style sheets not checked can be ignored. Error: min-height is calc so error can be ignored.
 
+### ChromeDev Tools Lighthouse Test
+
+I tested my project using the ChromeDev Tools with a Lighthouse Test to see it's loading performance times, Testing came back with a 99 score rating.
+
+![Responsiveness Test](assets/images/mobile-lighthouse-test.PNG)
+
+### Responsiveness Testing
+
+I used UiDev's Am I Responsive Test to check the responsiveness of my project. I also used chromedev tools to resize the webpage to check responsiveness on small width devices such as the IPhone SE & larger width devices such as a 4k monitor.
+
+### Navigation Menu Testing
+
+Using ChromeDev Tools I made sure to test my nav bar on both desktop and mobile devices this was due to the two layer design for the navigation menu which has the nav bar postioned on the top right on Desktop & the top left as a "hamburger" icon on mobile and smaller width tablets.
+
+### Require All Details for Booking Form
+
+I tested my booking form on the contact page insuring that it would not send details until all categories had been filled in. This was to insure to users didn't leave out any information such as entering a end destination but no collection point.
+
+## **Credits**
+---
+
+- W3Schools: Code was used and edited from W3 when creating the booking form for on the contact page
+- LoveRunning Project: The 3 Paged Web Layout and the project's footer were inspired by the LoveRunning Project Code can be found at 
+https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode
+- Kevin Powell: The 2 Styled navigation bar was taken and edited from Youtuber Kevin Powell code can be found at https://codepen.io/kevinpowell/pen/jxppmr
+
+## **Resources**
+- Code Institute course content
+- Slack Community
+- WW3 Schools 
+- Stackoverflow
+- YouTuber Kevin Powell
+- Balsamiq Wireframes
+- Flexbox Froggy
+
+**_Project Deployment_**
+
+The following steps outline how the project was deployed to GitHub pages:
+
+1. Logged on to GitHub
+2. Opened the repository **taxi-in-killarney**
+3. Clicked on the **settings** tab.
+4. Under the **Code & Automation** section click on **Pages**.
+5. Under **Branch** selected **main**
+6. Under **Source** clicked on **Deploy from a branch**
+7. Website should now be deplyed under a github page.
+
+**Live Project Can Be Found At** https://calumriot.github.io/taxi-in-killarney/
+
+
+
 
 
 

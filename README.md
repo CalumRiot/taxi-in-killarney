@@ -73,12 +73,12 @@ Sections:
 * Bookings
 * Contact
 
-Wireframe Mockups:
-### Home Page Mockup
+### Wireframe Mockups
+**Home**
 ![Responsiveness Test](assets/wireframes/home-wireframe.PNG)
-### Tours Page Mockup
+**Tours**
 ![Responsiveness Test](assets/wireframes/tours-wireframe.PNG)
-### Contact Page Mockup
+**Contact**
 ![Responsiveness Test](assets/wireframes/contact-wireframe.PNG)
 
 ### User Stories

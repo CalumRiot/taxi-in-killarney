@@ -74,10 +74,12 @@ Sections:
 * Contact
 
 Wireframe Mockups:
-
-![Responsiveness Test](assets/images/home-wireframe.PNG)
-![Responsiveness Test](assets/images/tours-wireframe.PNG)
-![Responsiveness Test](assets/images/contact-wireframe.PNG)
+### Home Page Mockup
+![Responsiveness Test](assets/wireframes/home-wireframe.PNG)
+### Tours Page Mockup
+![Responsiveness Test](assets/wireframes/tours-wireframe.PNG)
+### Contact Page Mockup
+![Responsiveness Test](assets/wireframes/contact-wireframe.PNG)
 
 ### User Stories
 
@@ -172,7 +174,7 @@ The following steps outline how the project was deployed to GitHub pages:
 4. Under the **Code & Automation** section click on **Pages**.
 5. Under **Branch** selected **main**
 6. Under **Source** clicked on **Deploy from a branch**
-7. Website should now be deplyed under a github page.
+7. Website should now be deployed under a github page.
 
 **Live Project Can Be Found At** https://calumriot.github.io/taxi-in-killarney/
 

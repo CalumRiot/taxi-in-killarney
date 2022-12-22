@@ -1,5 +1,5 @@
 # Taxi In Killarney 
-![Responsiveness Test](assets/images/responsive-test.PNG)
+![Responsiveness Test](readme-files/tests/responsive-test.PNG)
 ## **Overview**
 ---
 Taxi In Killarney is a site developed for a self-employed taxi driver based in Killarney, Co.Kerry, Ireland. The aim of the website is to provide information to customers about the services offered, to allow customers to make bookings online and to increase the number of customers by providing tours which would appeal to tourists looking to explore the areas surrounding Killarney. The website is 3 page website designed with a mobile-first approach. The websites 3 pages are Home, Tours and Bookings Page. The websites development is still ongoing and may be updated or changed in order to suit the needs or demands of both the page owner and it's users.
@@ -74,12 +74,18 @@ Sections:
 * Contact
 
 ### Wireframe Mockups
+
 **Home**
-![Responsiveness Test](assets/wireframes/home-wireframe.PNG)
+
+![Responsiveness Test](readme-files/wireframes/home-wireframe.PNG)
+
 **Tours**
-![Responsiveness Test](assets/wireframes/tours-wireframe.PNG)
+
+![Responsiveness Test](readme-files/wireframes/tours-wireframe.PNG)
+
 **Contact**
-![Responsiveness Test](assets/wireframes/contact-wireframe.PNG)
+
+![Responsiveness Test](readme-files/wireframes/contact-wireframe.PNG)
 
 ### User Stories
 
@@ -96,7 +102,8 @@ Sections:
 ### Languages
 - HTML5
 - CSS3
-This website used a both HTML & CSS.
+
+This website used both HTML & CSS.
 
 ### Integretion
 - Font Awesome
@@ -110,7 +117,7 @@ This website used a both HTML & CSS.
 
 ### Other
 - Tinyjpeg
-  Was used to compress images 
+  Was used to compress images that where too large. This was done to improve the website's overall lighthouse scores as some of the more HD images had very large file sizes.
 - Balsamiq Wireframes
   Used to create wireframes for project
 
@@ -133,7 +140,13 @@ Ran my code through W3C Validator to check for errors.
 
 I tested my project using the ChromeDev Tools with a Lighthouse Test to see it's loading performance times, Testing came back with a 99 score rating.
 
-![Responsiveness Test](assets/images/mobile-lighthouse-test.PNG)
+**Mobile Lighthouse Test**
+
+![Responsiveness Test](readme-files/tests/mobile-lighthouse-test.PNG)
+
+**Desktop Lighthouse Test**
+
+![Responsiveness Test](readme-files/tests/lighthouse-desktop.PNG)
 
 ### Responsiveness Testing
 
